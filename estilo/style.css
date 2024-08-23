@@ -32,8 +32,8 @@ header {
 header h1 {
     padding-top: 50px;
     font-family: "Caveat", cursive;
-    font-size: 100px;
-    margin: auto;
+    font-size: 10vw;
+    
 }
 
 header p {
