@@ -139,10 +139,11 @@ footer a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
+    margin: auto;
 }
 
 footer a:hover {
     text-decoration: underline;
     color: red;
-    margin: auto;
+    
 }
