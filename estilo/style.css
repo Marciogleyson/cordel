@@ -20,6 +20,7 @@
 }
 
 html, body {
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -63,8 +64,7 @@ section p {
     padding: 30px;
     font-size: 1.4em;
     line-height: 1.5em;
-    margin: auto;
-    
+    margin-left: 10px;
     font-family: var(--font3);
     
     
