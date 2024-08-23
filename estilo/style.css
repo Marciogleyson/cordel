@@ -27,12 +27,13 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    margin: auto;
+    
 }
 header h1 {
     padding-top: 50px;
     font-family: "Caveat", cursive;
     font-size: 100px;
+    margin: auto;
 }
 
 header p {
