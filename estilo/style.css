@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap');
+
+
+:root {
+
+    --font1: 'Kanit', sans-serif; 
+    --font2:  'Caveat', cursive;
+    --font3: 'Playwrite PE', cursive;
+}
+
+html, body {
+    background-color: burlywood;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-top: 50px;
+    font-family: "Caveat", cursive;
+    font-size: 100px;
+}
+
+header p {
+    padding-bottom: 50px;
+     
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+    
+}
+
+section p {
+    padding: 50px;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px black;
+    font-family: var(--font3);
+    
+    
+}
+
+section.imagem {
+  
+    box-shadow: 2px 2px 2px 2px black;
+    color: white;
+   
+   
+}
+
+section.imagem > p {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 10px 10px 10px 10px;
+    height: 300px;
+    width: 500px;
+    
+    
+    
+}
+
+section.normal {
+    
+    color: white;
+
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: red;
+}
