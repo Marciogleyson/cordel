@@ -27,6 +27,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    margin: auto;
 }
 header h1 {
     padding-top: 50px;
