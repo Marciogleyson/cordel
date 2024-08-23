@@ -20,7 +20,7 @@
 }
 
 html, body {
-    background-color: burlywood;
+    background-color: white;
 }
 
 header {
@@ -64,7 +64,7 @@ section p {
     font-size: 1.4em;
     line-height: 1.5em;
     margin: auto;
-    text-shadow: 2px 2px 2px black;
+    
     font-family: var(--font3);
     
     
@@ -87,6 +87,7 @@ section.imagem > p {
     border-radius: 10px 10px 10px 10px;
     height: 250px;
     width: 300px;
+    text-shadow: 2px 2px 2px black;
     
     
     
@@ -94,7 +95,7 @@ section.imagem > p {
 
 section.normal {
     
-    color: white;
+    color: black;
 
 }
 
