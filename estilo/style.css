@@ -144,4 +144,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: red;
+    margin: auto;
 }
