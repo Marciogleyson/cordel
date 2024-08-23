@@ -70,6 +70,10 @@ section p {
     
 }
 
+section.normal p {
+    font-weight: bolder;
+}  
+
 section.imagem {
   
     box-shadow: 2px 2px 2px 2px black;
@@ -88,6 +92,7 @@ section.imagem > p {
     height: 250px;
     width: 300px;
     text-shadow: 2px 2px 2px black;
+    
     
     
     
